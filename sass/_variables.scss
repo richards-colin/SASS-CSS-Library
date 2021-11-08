@@ -1,9 +1,29 @@
 //theme colors
 
-$primary: #fff6d6;
+$primary: #3700ff;
 $secondary: rgb(239, 197, 255);
 $error: red;
 $info: yellow;
+
+// color palette
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": blue,
+    "red": red,
+    "yellow": yellow,
+    "green": green,
+    "orange": orange,
+    "purple": purple,
+    "gray": gray,
+    "black": black,
+    "white": white,
+
+);
+
+@debug map-get($colors, "primary");
 
 //spacing
 
