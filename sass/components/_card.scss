@@ -3,7 +3,8 @@
 .card {
     display: block;
     padding: $base-padding;
-    border: $base-border-thickness solid rgb(235, 235, 235);
+    background-color: $secondary;
+    border: $base-border-thickness solid #767EB3;
     box-shadow: $base-box-shadow;
     border-radius: math.div($base-border-radius, 4);
     
